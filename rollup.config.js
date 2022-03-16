@@ -28,6 +28,7 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
       terser(),
+      // postcss(),
     ],
     external: ["react", "react-dom", "styled-components"],
   },
