@@ -16,7 +16,8 @@
     "emitDeclarationOnly": true,
     // A mais
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+    "rootDir": "src"
   },
   "exclude": [
     "dist",
